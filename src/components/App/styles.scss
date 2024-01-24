@@ -1,0 +1,19 @@
+@use './../../styles/vars';
+
+body {
+  background-color: vars.$color-main;
+  color: vars.$color-text;
+}
+
+.app {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 100vh;
+  background-color: vars.$color-inner;
+  padding: 1rem;
+
+  &__header {
+    margin-bottom: 1rem;
+  }
+}
